@@ -59,17 +59,16 @@ Passo 4 - Para conseguir o código da promoção você deve entrar no Instagram 
 
 ## Informações importantes
 
-1. O programa de extração extrai um usuário a cada 1 segundo e meio para o Instagram não detectar que é spam.
-2. O programa de comentar salva em uma pasta, chamada Madecomments, os comentários feitos. Então você pode parar o programa quando quiser
-que ele vai filtrar os ultimos marcados e vai marcar só quem ainda foi não marcado. Se vocẽ marcou todo mundo e quer marcar tudo de novo
-é só excluir o arquivo que ele vai marcar tudo de novo. O arquivo é criado nesse padrão
-perfildapromocao_codigosorteio_usuario.txt, exemplo, atleticafdv_Bza8BHMhJAc_cassianokunsch.txt
-3. O programa de comentar faz um comentário entre 10 a 120 segundos, para o Instagram não bloquear como spam. Cada conta tem
-limite de comentário, varia muito, se na hora que o programa estiver rodadando aparecer a mensagem "Spam detectado" aguarde pelo menos um dia
+### Programa de extração
+1. Extrai um usuário a cada 1 segundo e meio para o Instagram não detectar que é spam.
+2. A parte da extração pode ser feita apenas a primeira vez, mas é sempre bom deletar os usuários para não dar problema na hora de marcar pois ele pode ter te bloqueado e isso vai atrapalhar o programa.
+3. Geramente quando se tem muitos usuários pode demorar um pouco para extrair e talvez até o Instagram falar que é Spam, mas é só aguardar um dia e rodar o programa de novo para extrair. Você também pode cancelar o programa que se você rodar de novo ele vai continuar de onde parou.
+
+### Programa de comentar
+1. Salva em uma pasta, chamada Madecomments, os comentários feitos. Então você pode parar o programa quando quiser que ele vai filtrar os ultimos marcados e vai marcar só quem ainda foi não marcado. Se vocẽ marcou todo mundo e quer marcar tudo de novo é só excluir o arquivo que ele vai marcar tudo de novo. O arquivo é criado nesse padrão perfildapromocao_codigosorteio_usuario.txt, exemplo, atleticafdv_Bza8BHMhJAc_cassianokunsch.txt
+2. Faz um comentário entre 10 a 120 segundos, para o Instagram não bloquear como spam. Cada conta tem limite de comentário, varia muito, se na hora que o programa estiver rodadando aparecer a mensagem "Spam detectado" aguarde pelo menos um dia.
 para rodar o programa de novo para dar tempo de "desbloquearem sua conta".
-4. A parte da extração pode ser feita apenas a primeira vez, mas é sempre bom deletar os usuários para não dar problema na hora
-de marcar pois ele pode ter te bloqueado e isso vai atrapalhar o programa.
-5. O programa comentar ele tem uma lógica em relação a escolher os usuários para marcar nos sorteios. Vários sorteios
+3. Tem uma lógica em relação a escolher os usuários para marcar nos sorteios. Vários sorteios
 não querem que você marque faker ou pessoas famosas, então na hora de criar a lista de usuários filtrando 
 apenas os usuários que respeitarem a lógica desse trecho de código abaixo. Você pode mudar se quiser.
 
