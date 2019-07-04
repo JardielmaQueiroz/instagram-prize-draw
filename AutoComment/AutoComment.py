@@ -17,7 +17,7 @@ class AutoComment:
                 if self.api.do_comment(comment):
                     lst_of_comment_made.append(comment)
                     print(str(len(lst_of_comment_made)) +
-                          " feitos de " + str(len(lst_of_comment_to_do)))
+                          " comentários feitos de " + str(len(lst_of_comment_to_do)), end='\r')
                     save_comment_did(path, comment)
                     time.sleep(randint(10, 120))
                 else:
@@ -29,7 +29,7 @@ class AutoComment:
             print("Spam dectado! Aguarde algumas horas para comentar de novo!")
 
     def verify_coditions(self):
-        print("Fazendo login..")
+        print("\nFazendo login...")
         if self.api.login_account():
             print("Login feito com sucesso")
             if self.api.find_user_id(self.profile_photo):
