@@ -21,14 +21,15 @@ ela que salvamos os usuários no banco de dados(não se preocupe é criado autom
 os comentários.
 
 Para extrair:
-1. Rodar o comando python main_extract.py
+1. Rodar o comando python main_extract.py, se você estiver usando Virtualenv ative ele primeiro
 2. Digitar o seu usuário do Instagram
 3. Digitar a sua senha do Instagram
 4. Informar se você quer extrair os seus seguidores ou quem você segue
 5. Informar se você quer extrair novos, atualizar ou deletar
 6. Aguardar o termino da extração
 
-Obs.: Passo 4 - O programa de extração te da a opção de você extrair os seus seguidores ou quem você segue. Eu recomendo você extrair o que você tem mais. Quanto mais seguidores ou quem você segue mais usuários você vai ter para comentar.
+Obs.:
+Passo 4 - O programa de extração te da a opção de você extrair os seus seguidores ou quem você segue. Eu recomendo você extrair o que você tem mais. Quanto mais seguidores ou quem você segue mais usuários você vai ter para comentar.
 
 Passo 5 - A opção de extrair novos verifica se você seguiu alguém que não está no banco de dados ou se alguém novo
 te seguiu que não está no banco de dados. A opção de atualizar atualiza todos os seguidores ou os usuários que você segue.
@@ -41,7 +42,7 @@ sorteio que você escolher.
 
 Para comentar:
 
-1. Rodar o comando python main_auto_comment.py
+1. Rodar o comando python main_auto_comment.py, se você estiver usando Virtualenv ative ele primeiro
 2. Digitar seu usuário
 3. Digitar o nome do perfil da promoção
 4. Digitar o código da promoção
@@ -50,9 +51,9 @@ Para comentar:
 7. Aguardar o termino do programa
 
 Obs.:
-Passo 5 - Para conseguir o código da promoção você deve entrar no Instagram pelo seu navegador, ir no perfil que está fazendo a promoção e no link do navegador pegar o nome entre / /, exemplo, para o link https://www.instagram.com/gifsgalerahumanas/ o nome do perfil é gifsgalerahumanas.
+Passo 5 - Para conseguir o código da promoção você deve entrar no Instagram pelo seu navegador, ir no perfil que está fazendo a promoção e no link do navegador pegar o nome entre / /, exemplo, para o link https://www.instagram.com/atleticafdv/?hl=pt-br o nome do perfil é atleticafdvs.
 
-Passo 4 - Para conseguir o código da promoção você deve entrar no Instagram pelo seu navegador, ir no perfil que está fazendo a promoção, achar a foto oficial do sorteio e clicar nela, no link do navegador você deve pegar da URL apenas código entre /algum codigo/ depois do /p/, exemplo, para o link https://www.instagram.com/p/BzeeyjggRd7kPTzPhnA4SaO2IpxO1GJsBnWNSQ0/ o código é BzeeyjggRd7kPTzPhnA4SaO2IpxO1GJsBnWNSQ0.
+Passo 4 - Para conseguir o código da promoção você deve entrar no Instagram pelo seu navegador, ir no perfil que está fazendo a promoção, achar a foto oficial do sorteio e clicar nela, no link do navegador você deve pegar da URL apenas código entre /algum codigo/ depois do /p/, exemplo, para o link https://www.instagram.com/p/Bza8BHMhJAc/ o código é Bza8BHMhJAc.
 
 ## Informações importantes
 
