@@ -17,7 +17,7 @@ Para usar tem duas etapas:
 ### 1 Rodar o programa para extrair os seguidores e quem você segue
 
 Nessa etapa os usuários são extraídos através do programa main_extract.py. Essa é uma etapa muito importante pois, é com 
-ela que salvamos os usuários no banco de dados, não se preocupe é criado automagicamente, para serem usados na hora de fazer
+ela que salvamos os usuários no banco de dados(não se preocupe é criado automagicamente) para serem usados na hora de fazer
 os comentários.
 
 Para extrair:
@@ -28,8 +28,8 @@ Para extrair:
 5. Informar se você quer extrair novos, atualizar ou deletar
 6. Aguardar o termino da extração
 
-obs.: Passo 4 - O programa de extração te da a opção de você extrair os seus seguidores ou quem você segue. Eu recomendo você extrair o que você
-tem mais. Quanto mais seguidores ou quem você segue mais usuários você vai ter para comentar.
+Obs.: Passo 4 - O programa de extração te da a opção de você extrair os seus seguidores ou quem você segue. Eu recomendo você extrair o que você tem mais. Quanto mais seguidores ou quem você segue mais usuários você vai ter para comentar.
+
 Passo 5 - A opção de extrair novos verifica se você seguiu alguém que não está no banco de dados ou se alguém novo
 te seguiu que não está no banco de dados. A opção de atualizar atualiza todos os seguidores ou os usuários que você segue.
 A opção de deletar marca como deletado os usuários que você deixou de seguir ou que vocẽ não segue mais.
@@ -48,6 +48,11 @@ Para comentar:
 5. Digitar quantos amigos é para marcar por comentário
 6. Escolher se você vai usar os seguidores ou quem você segue para marcar
 7. Aguardar o termino do programa
+
+Obs.:
+Passo 5 - Para conseguir o código da promoção você deve entrar no Instagram pelo seu navegador, ir no perfil que está fazendo a promoção e no link do navegador pegar o nome entre / /, exemplo, para o link https://www.instagram.com/gifsgalerahumanas/ o nome do perfil é gifsgalerahumanas.
+
+Passo 4 - Para conseguir o código da promoção você deve entrar no Instagram pelo seu navegador, ir no perfil que está fazendo a promoção, achar a foto oficial do sorteio e clicar nela, no link do navegador você deve pegar da URL apenas código entre /algum codigo/ depois do /p/, exemplo, para o link https://www.instagram.com/p/BzeeyjggRd7kPTzPhnA4SaO2IpxO1GJsBnWNSQ0/ o código é BzeeyjggRd7kPTzPhnA4SaO2IpxO1GJsBnWNSQ0.
 
 ## Informações importantes
 
@@ -78,7 +83,4 @@ def select_filter_comment(self, table, user_id):
 
 ## Considerações finais
 
-Bom galera é isso, se ficou alguma dúvida pode me mandar no meu e-mail(cassiano.kunsch@outlook.com). Eu fiz esse programa por diversão
-se vocês quiserem melhorar é so fazer um fork do projeto e fazer um pull request, se eu achar legal vou fazer o merge. Caso dê
-algum problema é só abrir uma issue. Espero que tenha ficado claro todo o processo. Mais uma coisa, não usem o programa nos mesmos
-sorteios que eu haha.
+Bom galera é isso, se ficou alguma dúvida pode me mandar no meu e-mail(cassiano.kunsch@outlook.com). Eu fiz esse programa por diversão se vocês quiserem melhorar é so fazer um fork do projeto e fazer um pull request, se eu achar legal vou fazer o merge. Caso dê algum problema é só abrir uma issue. Espero que tenha ficado claro todo o processo. Mais uma coisa, não usem o programa nos mesmos sorteios que eu haha.
